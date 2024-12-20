@@ -1,0 +1,44 @@
+/* Устанавливаем черный фон для всей страницы */
+body {
+  background-color: black;
+  margin: 0; /* Убираем отступы */
+  height: 100vh; /* Полная высота экрана */
+  display: flex;
+  justify-content: center; /* Центрируем по горизонтали */
+  align-items: center; /* Центрируем по вертикали */
+  color: white; /* Белый цвет текста */
+  font-family: Arial, sans-serif; /* Шрифт */
+}
+
+#root {
+  text-align: center; /* Центрируем контент внутри root */
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+h1 {
+  color: #fff; /* Белый цвет для заголовка */
+  font-size: 2.5rem;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column; /* Кнопки будут выстроены вертикально */
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Отступы между кнопками */
+}
